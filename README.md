@@ -1,4 +1,4 @@
- # How to disable videos from all Youtube channels and leave only some (whitelisted) channels
+# How to disable videos from all Youtube channels and leave only some (whitelisted) channels
 
 ## Principle of work
 The idea behind my solution is based on intercepting Youtube traffic (HTML pages) using the Privoxy proxy server and injecting javascript's into them (using a special filter for Privoxy) that do all the work on the client side.
