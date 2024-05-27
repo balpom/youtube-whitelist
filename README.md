@@ -101,8 +101,8 @@ www.youtube.com/channel/
 ```
 
 ### Afterword
-Repeat once again: your Privoxy installation MUST have self-signed SSL sertificate, added:\
-1) In system trusted sertificates.\
+Repeat once again: your Privoxy installation MUST have self-signed SSL sertificate, added:
+1) In system trusted sertificates.
 2) In Privoxy *config.txt* file.
 
 Also, don't forget to clear the browser cache!
