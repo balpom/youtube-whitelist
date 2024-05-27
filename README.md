@@ -3,9 +3,9 @@
 ## Principle of work
 The idea behind my solution is based on intercepting Youtube traffic (HTML pages) using the Privoxy proxy server and injecting javascript's into them (using a special filter for Privoxy) that do all the work on the client side.
 
-##How to organize a whitelist of Youtube channels
+## How to organize a whitelist of Youtube channels
 
-###Preparing
+### Preparing
 First of all, you must have a working Privoxy proxy server, bootable with your OS, and a self-signed SSL certificate added to the trusted ones.
 
 All network traffic must be routed through a this proxy.
@@ -27,7 +27,7 @@ français: [https://www.balpom.ru/fr/whitelist/](https://www-balpom-ru.translate
 český: [https://www.balpom.ru/cz/whitelist/](https://www-balpom-ru.translate.goog/whitelist/?_x_tr_sl=ru&_x_tr_tl=cs&_x_tr_hl=cs&_x_tr_pto=wapp)
 
 
-###How to connect youtube.filter to Privoxy.
+### How to connect youtube.filter to Privoxy.
 Repeat: links to the detailed instructions see above. Below I will briefly show the principle itself.
 
 Download *youtube.filter* into Privoxy directory.
@@ -100,7 +100,7 @@ www.youtube.com/feed/
 www.youtube.com/channel/
 ```
 
-###Afterword
+### Afterword
 Repeat once again: your Privoxy installation MUST have self-signed SSL sertificate, added:\
 1) In system trusted sertificates.\
 2) In Privoxy *config.txt* file.
